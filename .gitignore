@@ -1,0 +1,37 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Tt]emp/
+
+# Others
+*.dbmdl
+*.cache
+*.log
+*.tlog
+*.pdb
+*.vsidx
+*.opendb
+*.db
+*.rdl.data
+
+# Visual Studio Code
+.vscode/
+
+# NuGet Packages
+*.nupkg
+packages/
+*.snupkg
+*.nuspec
+project.lock.json
+
+# Publish
+publish/
+wwwroot/

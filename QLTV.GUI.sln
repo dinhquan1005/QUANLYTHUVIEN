@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLTV.GUI", "QLTV.GUI\QLTV.GUI.csproj", "{B2C5D269-D111-4179-A162-5DBD9AFC2879}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLTV.DAL", "QLTV.DAL\QLTV.DAL.csproj", "{E8533517-CDA2-41F4-86CC-FED5BDDB9346}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLTV.BUS", "QLTV.BUS\QLTV.BUS.csproj", "{F46CA50A-C9A4-47BF-B8A0-17EE24783D62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2C5D269-D111-4179-A162-5DBD9AFC2879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C5D269-D111-4179-A162-5DBD9AFC2879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C5D269-D111-4179-A162-5DBD9AFC2879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C5D269-D111-4179-A162-5DBD9AFC2879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8533517-CDA2-41F4-86CC-FED5BDDB9346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8533517-CDA2-41F4-86CC-FED5BDDB9346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8533517-CDA2-41F4-86CC-FED5BDDB9346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8533517-CDA2-41F4-86CC-FED5BDDB9346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F46CA50A-C9A4-47BF-B8A0-17EE24783D62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F46CA50A-C9A4-47BF-B8A0-17EE24783D62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F46CA50A-C9A4-47BF-B8A0-17EE24783D62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F46CA50A-C9A4-47BF-B8A0-17EE24783D62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83FF6E2B-65D8-4993-A874-48FBADCBC3CF}
+	EndGlobalSection
+EndGlobal
