@@ -53,9 +53,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChiTietPhieuMuonDAL.cs" />
     <Compile Include="DocGiaDAL.cs" />
+    <Compile Include="Entities\DocGiaQuaHanDTO.cs" />
+    <Compile Include="Entities\DocGiaThongKeDTO.cs" />
     <Compile Include="Entities\MuonTra.cs" />
+    <Compile Include="Entities\NhanVien.cs" />
+    <Compile Include="Entities\SachThongKeDTO.cs" />
     <Compile Include="NguoiDungDAL.cs" />
+    <Compile Include="NhanVienDAL.cs" />
+    <Compile Include="NhaXuatBanDAL.cs" />
     <Compile Include="PhieuMuonDAL.cs" />
     <Compile Include="SachDAL.cs" />
     <Compile Include="Entities\ChiTietPhieuMuon.cs" />
@@ -69,7 +76,9 @@
     <Compile Include="Entities\TacGia.cs" />
     <Compile Include="Entities\TheLoai.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SachView.cs" />
+    <Compile Include="Entities\SachView.cs" />
+    <Compile Include="TacGiaDAL.cs" />
+    <Compile Include="TheLoaiDAL.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

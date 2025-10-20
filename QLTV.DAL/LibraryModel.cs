@@ -22,6 +22,7 @@ namespace QLTV.DAL.Entities
         public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
         public virtual DbSet<TacGia> TacGia { get; set; }
         public virtual DbSet<TheLoai> TheLoai { get; set; }
+        public virtual DbSet<NhanVien> NhanVien { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

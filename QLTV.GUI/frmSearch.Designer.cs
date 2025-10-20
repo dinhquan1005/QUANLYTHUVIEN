@@ -50,38 +50,45 @@
             this.groupBox2.Controls.Add(this.btnTimSach);
             this.groupBox2.Controls.Add(this.rdbTenSach);
             this.groupBox2.Controls.Add(this.rdbMaSach);
-            this.groupBox2.Location = new System.Drawing.Point(21, 12);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(13, 13);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(822, 100);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox2.Size = new System.Drawing.Size(465, 107);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Tìm kiếm Sách";
             // 
             // txtTimSach
             // 
-            this.txtTimSach.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTimSach.Location = new System.Drawing.Point(234, 43);
+            this.txtTimSach.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTimSach.Location = new System.Drawing.Point(100, 37);
+            this.txtTimSach.Margin = new System.Windows.Forms.Padding(4);
             this.txtTimSach.Name = "txtTimSach";
-            this.txtTimSach.Size = new System.Drawing.Size(351, 26);
+            this.txtTimSach.Size = new System.Drawing.Size(178, 24);
             this.txtTimSach.TabIndex = 3;
             // 
             // btnTimSach
             // 
-            this.btnTimSach.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTimSach.Location = new System.Drawing.Point(644, 43);
+            this.btnTimSach.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTimSach.Location = new System.Drawing.Point(327, 37);
+            this.btnTimSach.Margin = new System.Windows.Forms.Padding(4);
             this.btnTimSach.Name = "btnTimSach";
-            this.btnTimSach.Size = new System.Drawing.Size(84, 26);
+            this.btnTimSach.Size = new System.Drawing.Size(112, 32);
             this.btnTimSach.TabIndex = 2;
             this.btnTimSach.Text = "Tìm";
             this.btnTimSach.UseVisualStyleBackColor = true;
+            this.btnTimSach.Click += new System.EventHandler(this.btnTimSach_Click);
             // 
             // rdbTenSach
             // 
             this.rdbTenSach.AutoSize = true;
-            this.rdbTenSach.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbTenSach.Location = new System.Drawing.Point(69, 61);
+            this.rdbTenSach.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbTenSach.Location = new System.Drawing.Point(8, 68);
+            this.rdbTenSach.Margin = new System.Windows.Forms.Padding(4);
             this.rdbTenSach.Name = "rdbTenSach";
-            this.rdbTenSach.Size = new System.Drawing.Size(102, 25);
+            this.rdbTenSach.Size = new System.Drawing.Size(90, 22);
             this.rdbTenSach.TabIndex = 1;
             this.rdbTenSach.TabStop = true;
             this.rdbTenSach.Text = "Tên sách";
@@ -90,10 +97,11 @@
             // rdbMaSach
             // 
             this.rdbMaSach.AutoSize = true;
-            this.rdbMaSach.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbMaSach.Location = new System.Drawing.Point(73, 19);
+            this.rdbMaSach.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbMaSach.Location = new System.Drawing.Point(8, 23);
+            this.rdbMaSach.Margin = new System.Windows.Forms.Padding(4);
             this.rdbMaSach.Name = "rdbMaSach";
-            this.rdbMaSach.Size = new System.Drawing.Size(97, 25);
+            this.rdbMaSach.Size = new System.Drawing.Size(86, 22);
             this.rdbMaSach.TabIndex = 0;
             this.rdbMaSach.TabStop = true;
             this.rdbMaSach.Text = "Mã sách";
@@ -105,38 +113,45 @@
             this.groupBox1.Controls.Add(this.btnTimDG);
             this.groupBox1.Controls.Add(this.rdbTenDG);
             this.groupBox1.Controls.Add(this.rdbMaDG);
-            this.groupBox1.Location = new System.Drawing.Point(21, 127);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(486, 13);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(822, 100);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Size = new System.Drawing.Size(549, 107);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Tìm kiếm Đọc giả";
             // 
             // txtTmDG
             // 
-            this.txtTmDG.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTmDG.Location = new System.Drawing.Point(234, 43);
+            this.txtTmDG.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTmDG.Location = new System.Drawing.Point(136, 42);
+            this.txtTmDG.Margin = new System.Windows.Forms.Padding(4);
             this.txtTmDG.Name = "txtTmDG";
-            this.txtTmDG.Size = new System.Drawing.Size(351, 26);
+            this.txtTmDG.Size = new System.Drawing.Size(207, 24);
             this.txtTmDG.TabIndex = 3;
             // 
             // btnTimDG
             // 
-            this.btnTimDG.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTimDG.Location = new System.Drawing.Point(644, 43);
+            this.btnTimDG.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTimDG.Location = new System.Drawing.Point(394, 37);
+            this.btnTimDG.Margin = new System.Windows.Forms.Padding(4);
             this.btnTimDG.Name = "btnTimDG";
-            this.btnTimDG.Size = new System.Drawing.Size(84, 26);
+            this.btnTimDG.Size = new System.Drawing.Size(112, 32);
             this.btnTimDG.TabIndex = 2;
             this.btnTimDG.Text = "Tìm";
             this.btnTimDG.UseVisualStyleBackColor = true;
+            this.btnTimDG.Click += new System.EventHandler(this.btnTimDG_Click);
             // 
             // rdbTenDG
             // 
             this.rdbTenDG.AutoSize = true;
-            this.rdbTenDG.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbTenDG.Location = new System.Drawing.Point(69, 61);
+            this.rdbTenDG.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbTenDG.Location = new System.Drawing.Point(15, 75);
+            this.rdbTenDG.Margin = new System.Windows.Forms.Padding(4);
             this.rdbTenDG.Name = "rdbTenDG";
-            this.rdbTenDG.Size = new System.Drawing.Size(128, 25);
+            this.rdbTenDG.Size = new System.Drawing.Size(106, 22);
             this.rdbTenDG.TabIndex = 1;
             this.rdbTenDG.TabStop = true;
             this.rdbTenDG.Text = "Tên đọc giả";
@@ -145,10 +160,11 @@
             // rdbMaDG
             // 
             this.rdbMaDG.AutoSize = true;
-            this.rdbMaDG.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbMaDG.Location = new System.Drawing.Point(73, 19);
+            this.rdbMaDG.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbMaDG.Location = new System.Drawing.Point(20, 23);
+            this.rdbMaDG.Margin = new System.Windows.Forms.Padding(4);
             this.rdbMaDG.Name = "rdbMaDG";
-            this.rdbMaDG.Size = new System.Drawing.Size(123, 25);
+            this.rdbMaDG.Size = new System.Drawing.Size(102, 22);
             this.rdbMaDG.TabIndex = 0;
             this.rdbMaDG.TabStop = true;
             this.rdbMaDG.Text = "Mã đọc giả";
@@ -157,21 +173,25 @@
             // dgvTable
             // 
             this.dgvTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvTable.Location = new System.Drawing.Point(21, 245);
+            this.dgvTable.Location = new System.Drawing.Point(13, 139);
+            this.dgvTable.Margin = new System.Windows.Forms.Padding(4);
             this.dgvTable.Name = "dgvTable";
-            this.dgvTable.Size = new System.Drawing.Size(822, 243);
+            this.dgvTable.RowHeadersWidth = 51;
+            this.dgvTable.Size = new System.Drawing.Size(1022, 279);
             this.dgvTable.TabIndex = 5;
             // 
             // frmSearch
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(913, 500);
+            this.ClientSize = new System.Drawing.Size(1217, 615);
             this.Controls.Add(this.dgvTable);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmSearch";
             this.Text = "Tìm kiếm";
+            this.Load += new System.EventHandler(this.frmSearch_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);

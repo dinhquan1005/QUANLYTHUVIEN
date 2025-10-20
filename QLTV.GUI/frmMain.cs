@@ -121,14 +121,14 @@ namespace QLTV.GUI
 
         private void mnuWriterManagement_Click(object sender, EventArgs e)
         {
-            // Giả sử bạn có form tên frmWriter
-            // OpenChildForm<frmWriter>();
+            //Giả sử bạn có form tên frmWriter
+             OpenChildForm<frmWriter>();
         }
 
         private void mnuTypeManagement_Click(object sender, EventArgs e)
         {
             // Giả sử bạn có form tên frmType
-            // OpenChildForm<frmType>();
+            OpenChildForm<frmType>();
         }
 
         private void mnuSearch_Click(object sender, EventArgs e)

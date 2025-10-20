@@ -215,3 +215,47 @@ GO
 
 PRINT 'Thêm dữ liệu mẫu thành công!';
 
+
+CREATE TABLE NhanVien (
+    -- MaNV vừa là khóa chính, vừa là khóa ngoại liên kết tới NguoiDung.TenDangNhap
+    MaNV VARCHAR(50) PRIMARY KEY,
+    HoTen NVARCHAR(100) NOT NULL,
+    NgaySinh DATE,
+    GioiTinh NVARCHAR(10),
+    DiaChi NVARCHAR(255),
+    SoDienThoai VARCHAR(20),
+
+    -- Thiết lập mối quan hệ một-một với bảng NguoiDung
+    -- Nếu một NguoiDung bị xóa, NhanVien tương ứng cũng sẽ bị xóa
+    CONSTRAINT FK_NhanVien_NguoiDung FOREIGN KEY (MaNV) REFERENCES NguoiDung(TenDangNhap) ON DELETE CASCADE
+);
+
+INSERT INTO NhanVien (MaNV, HoTen, NgaySinh, GioiTinh, DiaChi, SoDienThoai)
+VALUES
+(
+    'admin',                         -- MaNV phải khớp với TenDangNhap trong bảng NguoiDung
+    N'Quản trị viên Hệ thống',       -- HoTen
+    '1990-01-01',                    -- NgaySinh
+    N'Nam',                          -- GioiTinh
+    N'123 Đường ABC, TP.HCM',        -- DiaChi
+    '0901234567'                     -- SoDienThoai
+),
+(
+    'thuthu01',                      -- MaNV phải khớp với TenDangNhap trong bảng NguoiDung
+    N'Nguyễn Văn An',                -- HoTen
+    '1995-05-20',                    -- NgaySinh
+    N'Nam',                          -- GioiTinh
+    N'456 Đường XYZ, TP. Dĩ An',     -- DiaChi
+    '0987654321'                     -- SoDienThoai
+);
+
+-- Cập nhật tất cả các vai trò không hợp lệ thành 'ThuThu'
+UPDATE NguoiDung
+SET VaiTro = 'ThuThu'
+WHERE VaiTro NOT IN ('Admin', 'ThuThu', 'NhanVien') OR VaiTro IS NULL;
+
+ALTER TABLE NguoiDung 
+ADD CONSTRAINT CK_NguoiDung_VaiTro CHECK (VaiTro IN ('Admin', 'ThuThu', 'NhanVien'));
+GO
+
+select * from NguoiDung

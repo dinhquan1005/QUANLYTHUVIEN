@@ -1,5 +1,4 @@
-﻿// QLTV.DAL\NguoiDungDAL.cs
-using QLTV.DAL.Entities;
+﻿using QLTV.DAL.Entities;
 using System.Linq;
 
 namespace QLTV.DAL
@@ -16,11 +15,22 @@ namespace QLTV.DAL
                                            && x.TrangThai == true);
             }
         }
+
+        // --- PHƯƠNG THỨC BỊ THIẾU BẠN CẦN THÊM VÀO ---
+        public NguoiDung LayTheoId(string tenDangNhap)
+        {
+            using (var db = new LibraryModel())
+            {
+                // Find() là cách nhanh nhất để tìm một đối tượng bằng khóa chính
+                return db.NguoiDung.Find(tenDangNhap);
+            }
+        }
+        // ---------------------------------------------
+
         public bool Them(NguoiDung nd)
         {
             using (var db = new LibraryModel())
             {
-                // Kiểm tra tài khoản đã tồn tại chưa
                 if (db.NguoiDung.Any(x => x.TenDangNhap == nd.TenDangNhap))
                     return false;
 
